@@ -65,15 +65,20 @@
 
 #lab5
 
-try:
-    urun = input("urun gir :")
-    if urun in ("domates","biber","patlıcan"):
-        print("sebze")
-    elif urun in ("şampuan","deodarant","parfüm"):
-        print("kozmetik")
-    elif urun in ("tv","pc","kulaklık"):
-        print("teknoloji")
-    else:
-        print("bu ürün çeşidi bizde yok")
-except:
-    pass
+# try:
+#     urun = input("urun gir :")
+#     if urun in ("domates","biber","patlıcan"):
+#         print("sebze")
+#     elif urun in ("şampuan","deodarant","parfüm"):
+#         print("kozmetik")
+#     elif urun in ("tv","pc","kulaklık"):
+#         print("teknoloji")
+#     else:
+#         print("bu ürün çeşidi bizde yok")
+# except:
+#     pass
+# finally:
+#     pass
+
+############
+
