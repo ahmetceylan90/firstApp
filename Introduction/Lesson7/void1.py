@@ -1,0 +1,4 @@
+def firstMethod():
+    print("merhaba")
+
+    
