@@ -1,0 +1,19 @@
+msdos Komutları
+
+cd     => current directory   => dosya dizinine git.  cd Desktop => Desktop
+cd ..  => bir üst dizine geç
+mkdir  => klasör oluşturur    => mkdir Deneme (size bulunduğunuz dizin içerisinde klasör oluşturur)
+touch  => dosya oluşturur     => touch "dosya içerisinde yer alacak olan değerler" >> dosyaadi.uzantisi
+del    => dosya silme işlemi  => del dosyaadi.uzantisi
+rmdir  => klasörü siler       => rmdir klasöradi
+code . => ilgili dizinde vscode'u açar
+
+GIT Komutları
+
+git init                  => konfigurasyon dosyası oluşturur.
+git add <dosya adı, *>    => yaptığımız değişikliği local git'e ekler
+git commit -m "açıklama"  => yapılan değişiklik için açıklama kısmı
+git branch                => var olan branch'leri listeler
+git branch -m "yeniad"    => verdiğiniz isimde yeni bir branch oluşturur
+git push                  => değişiklikleri github' gönderir
+git pull                  => değişiklikleri local projenize ekler
